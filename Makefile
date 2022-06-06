@@ -39,6 +39,7 @@ dist: clean
 		st-$(VERSION)
 	tar -cf - st-$(VERSION) | gzip > st-$(VERSION).tar.gz
 	rm -rf st-$(VERSION)
+	rm -rf ./config.h
 
 install: st
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
