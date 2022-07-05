@@ -5,7 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Jetbrains Mono:pixelsize=15:antialias=true:autohint=true";
+static char *font = "JetBrainsMonoExtraBold:pixelsize=15:antialias=true:autohint=true";
+static char *font2[] ={
+    "Noto Sans CJK HK Black:pixelsize=15:antialias=true:autohint=true"
+};
 static int borderpx = 2;
 
 /*
@@ -140,7 +143,7 @@ static unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 6;
+static unsigned int cursorshape = 2;
 
 /*
  * Default columns and rows numbers
